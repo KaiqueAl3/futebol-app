@@ -2,8 +2,6 @@
 
 Aplicação web desenvolvida em **React** que consome a API pública **TheSportsDB** para exibir ligas, times, jogadores e partidas de futebol do mundo todo.
 
-> Trabalho individual da disciplina de Desenvolvimento Front-End / React.
-> **Tema escolhido:** Futebol.
 
 ---
 
