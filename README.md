@@ -13,11 +13,15 @@ Aplicação web desenvolvida em **React** que consome a API pública **TheSports
 ## 📸 Prints Do Site
 
 | 🏠 Página inicial 
+
 <img width="1919" height="930" alt="image" src="https://github.com/user-attachments/assets/1c93fe26-b354-48df-83fd-6c78857ad945" />
 
 | 🏆 Ligas 
+<img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/d6c9cca1-42ab-4698-9fb6-df9c2f7811d9" />
 
 | 📋 Detalhe da Liga 
+<img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/7ca0036e-68e1-4f17-8368-2d46f6c15d2b" />
+
 
 | ⚽ Detalhe do Time 
 
