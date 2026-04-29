@@ -10,16 +10,20 @@ Aplicação web desenvolvida em **React** que consome a API pública **TheSports
 
 ---
 
-## 📸 Screenshots
+## 📸 Prints Do Site
 
-| Tela | Imagem |
-|------|--------|
-| 🏠 Página inicial (Home) | ![Home](docs/screenshots/01-home.png) |
-| 🏆 Lista de Ligas | ![Ligas](docs/screenshots/02-ligas.png) |
-| 📋 Detalhe da Liga | ![Liga](docs/screenshots/03-liga-detalhe.png) |
-| ⚽ Detalhe do Time | ![Time](docs/screenshots/04-time-detalhe.png) |
-| 👤 Detalhe do Jogador | ![Jogador](docs/screenshots/05-jogador-detalhe.png) |
-| 🔍 Página de Busca | ![Busca](docs/screenshots/06-busca.png) |
+| 🏠 Página inicial 
+
+| 🏆 Ligas 
+
+| 📋 Detalhe da Liga 
+
+| ⚽ Detalhe do Time 
+
+| 👤 Detalhe do Jogador 
+
+| 🔍 Página de Busca 
+
 
 
 ## 🧱 Arquitetura da aplicação
