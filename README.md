@@ -3,13 +3,10 @@
 Aplicação web desenvolvida em **React** que consome a API pública **TheSportsDB** para exibir ligas, times, jogadores e partidas de futebol do mundo todo.
 
 
----
+## 🌐 Link do site
 
-## 🌐 Link da aplicação online
+🔗 **Acesse aqui:** https://KaiqueAl3.github.io/futebol-app
 
-🔗 **Acesse aqui:** https://SEU-USUARIO.github.io/futebol-app
-
-> ⚠️ **Antes de entregar:** substitua `SEU-USUARIO` pelo seu usuário do GitHub.
 
 ---
 
@@ -24,9 +21,6 @@ Aplicação web desenvolvida em **React** que consome a API pública **TheSports
 | 👤 Detalhe do Jogador | ![Jogador](docs/screenshots/05-jogador-detalhe.png) |
 | 🔍 Página de Busca | ![Busca](docs/screenshots/06-busca.png) |
 
-> Os screenshots ficam na pasta `docs/screenshots/`. Tire prints da aplicação rodando e salve com esses nomes.
-
----
 
 ## 🧱 Arquitetura da aplicação
 
@@ -198,60 +192,6 @@ A navegação entre páginas é feita com `<Link />` do React Router (sem reload
 
 4. **Abra no navegador:** [http://localhost:5173](http://localhost:5173)
 
-### Outros comandos disponíveis
-
-| Comando | O que faz |
-|---------|-----------|
-| `npm run dev` | Sobe o servidor de desenvolvimento com hot-reload |
-| `npm run build` | Gera o build de produção em `dist/` |
-| `npm run preview` | Pré-visualiza o build localmente |
-| `npm run deploy` | Publica no GitHub Pages (branch `gh-pages`) |
-
----
-
-## ☁️ Como fazer o deploy no GitHub Pages
-
-### 1. Criar o repositório no GitHub
-
-1. Acesse https://github.com/new
-2. **Repository name:** `futebol-app`
-3. Marque **Public**, e NÃO marque nenhuma outra opção
-4. Clique em **Create repository**
-
-### 2. Subir o código
-
-Dentro da pasta do projeto, no terminal:
-
-```bash
-git init
-git add .
-git commit -m "feat: aplicação react de futebol"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/futebol-app.git
-git push -u origin main
-```
-
-### 3. Publicar no GitHub Pages
-
-```bash
-npm install
-npm run deploy
-```
-
-O comando `npm run deploy` faz o build e publica automaticamente na branch `gh-pages`.
-
-### 4. Habilitar o GitHub Pages
-
-1. Vá em `https://github.com/SEU-USUARIO/futebol-app/settings/pages`
-2. Em **Source** selecione: **Deploy from a branch**
-3. Em **Branch** selecione: **`gh-pages`** / **`/ (root)`**
-4. Clique em **Save**
-5. Aguarde 1-2 minutos
-
-✅ Sua URL pública será: `https://SEU-USUARIO.github.io/futebol-app`
-
----
-
 ## 🔌 Sobre a API consumida
 
 A aplicação consome a **[TheSportsDB API](https://www.thesportsdb.com/api.php)** — pública e gratuita.
@@ -270,30 +210,8 @@ Endpoints utilizados:
 | `/searchplayers.php?p=` | Busca jogadores por nome |
 | `/lookupplayer.php?id=` | Detalhes de um jogador |
 
----
-
-## ✅ Checklist de requisitos atendidos
-
-- [x] **[2 pts]** Aplicação exibindo dados de API (TheSportsDB via fetch)
-- [x] **[2 pts]** Rotas dinâmicas com links internos (`/liga/:id`, `/time/:id`, `/jogador/:id`)
-- [x] **[2 pts]** README bem feito com instruções, dependências e tecnologias
-- [x] **[1 pt]** Código-fonte React versionado no Git
-- [x] **[1 pt]** Desenho da arquitetura da aplicação (acima)
-- [x] **[1 pt]** Prints da aplicação (em `docs/screenshots/`)
-- [x] **[1 pt]** Link para acessar a aplicação online (no topo)
-
-**Total: 10/10 pontos**
-
----
 
 ## 👨‍💻 Autor
 
 **Kaique Alencar**
-📧 iquegr@gmail.com
-🎓 Disciplina de Desenvolvimento Front-End / React
 
----
-
-## 📝 Licença
-
-Projeto acadêmico de uso livre. Os dados exibidos pertencem à [TheSportsDB](https://www.thesportsdb.com).
